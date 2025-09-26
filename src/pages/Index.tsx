@@ -73,8 +73,8 @@ const Index = () => {
             { id: "homework", label: "Homework", icon: BookOpen },
             { id: "plan", label: "Study", icon: Calendar },
             // Took Away Plan
-            { id: "focus", label: "Lock In", icon: Target },
-        /* changed the focus time to lock in*/
+            { id: "focus", label: "Focus", icon: Target },
+        /* changed the focus time to focus*/
           ].map(tab => (
             <button
               key={tab.id}
