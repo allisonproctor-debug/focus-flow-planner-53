@@ -164,7 +164,7 @@ export function AddHomeworkDialog({ open, onOpenChange, onAdd }: AddHomeworkDial
               Cancel
             </Button>
             <Button type="submit" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              Add Homework
+              Log Your Work
             </Button>
           </div>
         </form>

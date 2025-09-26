@@ -31,7 +31,7 @@ export function HomeworkList({ homework, onToggle, onDelete }: HomeworkListProps
         <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
           <CheckCircle2 className="w-8 h-8 text-muted-foreground" />
         </div>
-        <h3 className="text-lg font-medium text-foreground mb-2">All caught up!</h3>
+        <h3 className="text-lg font-medium text-foreground mb-2">No work now!</h3>
         <p className="text-muted-foreground">Add some homework to get started with your study plan.</p>
       </div>
     );

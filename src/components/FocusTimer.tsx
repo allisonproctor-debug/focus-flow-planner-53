@@ -111,7 +111,7 @@ export function FocusTimer({ homework }: FocusTimerProps) {
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-foreground mb-1">Focus Mode</h2>
+        <h2 className="text-xl font-semibold text-foreground mb-1">Lock In</h2>
         <p className="text-sm text-muted-foreground">
           Stay focused with timed study sessions and app blocking
         </p>

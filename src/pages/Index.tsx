@@ -71,8 +71,10 @@ const Index = () => {
         <div className="flex space-x-1 mb-8 bg-muted p-1 rounded-lg w-fit">
           {[
             { id: "homework", label: "Homework", icon: BookOpen },
-            { id: "plan", label: "Study Plan", icon: Calendar },
-            { id: "focus", label: "Focus Mode", icon: Target },
+            { id: "plan", label: "Study", icon: Calendar },
+            // Took Away Plan
+            { id: "focus", label: "Lock In", icon: Target },
+        /* changed the focus time to lock in*/
           ].map(tab => (
             <button
               key={tab.id}
@@ -100,7 +102,9 @@ const Index = () => {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-medium"
                 >
                   <Plus className="w-4 h-4 mr-2" />
-                  Add Homework
+                  Add Homework 
+              {/* Added To Do to Add Homework */}
+                  
                 </Button>
               </div>
               <HomeworkList 
